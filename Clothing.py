@@ -4,7 +4,9 @@ Created on Fri Aug  2 16:02:32 2019
 
 @author: USER
 """
-
+#Importing libraries
+import tensorflow as tf
+import keras
 #Dataset
 fashion_mnist = keras.datasets.fashion_mnist
 (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
